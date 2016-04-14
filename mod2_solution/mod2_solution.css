@@ -32,30 +32,31 @@ p {
 
 #chicken { 
   background-color: #90EE90; /* lightgreen */
-  position: absolute;
   width: 25%;
   top: 0;
   right: 8px;
   border: 1px solid black;
+  position: relative;
 
   
 }
 #beef {
   background-color: #ADD8E6; /* lightblue */
-  position: absolute;
   width: 25%;
   top: 0;
   right: 8px;
   border: 1px solid black;
+  position: absolute;
+
 
 }
 #sushi {
   background-color: #F4A460; /* sandybrown */
-  position: absolute;
   width: 25%;
   top: 0;
   right: 8px;
   border: 1px solid black;
+  position: absolute;
 
 }
 /* Simple Responsive Framework. */
