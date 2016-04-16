@@ -1,14 +1,14 @@
 
 
 #header-nav {
-  background-color: #87CEFA;
+  background-color: #1a1a1a;
   border-radius: 0;
   border: 0;
   padding-top: 25px;
 }
 .navbar-brand {
   position: relative;
-  padding: 8px 0px 20px 0px;
+  padding: 3px 0px 20px 0px;
 }
 .navbar-brand h1 {
   float: left;
@@ -16,28 +16,59 @@
   color: #FFFAFA;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 10px;
   line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
+.navbar-toggle  {
+  margin: 0px 0px 7px 3px; /*puts menu button in desired position*/
+  /*border: 1px solid #FF0000;*/
+}
+#collapsable-nav {
+  clear: both; /*this places the menu items below header and across the whole page*/
+}
 #nav-list {
-  margin-top: 40px;
+  margin-top: 2px;
+  margin-bottom: 2px; /*this helps the border of menu items*/
 }
 #nav-list a {
-  color: #951C49;
+  color: #FF0000;
+  text-shadow: 1px 1px 1px #222;
   text-align: center;
   font-size: 1.4em;
+  font-family: Helvetica;
+  background-color: #F5FFFA;
+  border: 2px solid #000000; /*this creates the border in menu for items*/
+  /*#191970 midnight blue
+  #F5FFFA mint cream
+  #FFE4B5 moccasin
+  #FFFAFA white
+  /*#ffff80 pale yellow*/
+  /*#FF0000 red*/
 }
 #nav-list a:hover {
   background: #E7E7E7;
 }
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #FFFAFA;
+.text-center {
+  font-size: 36px;
+  font-family: Helvetica;
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.container-fluid {
+  height: 1000px;
+  margin: 10px;
+  background-color: #E7E7E7;
+}
+.chicken {
+  text-align: center;
+  font-weight: bold;
+}
+.container-fluid p {
+  margin: 20px 10px 20px 10px;
 }
