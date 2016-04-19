@@ -61,7 +61,6 @@
   text-shadow: 1px 1px 1px #222;
 }
 .container-fluid {
-  /*height: 2000px;*/ /*dont need this anymore since set .col class*/
   margin: 10px;
   background-color: #E7E7E7;
 }
